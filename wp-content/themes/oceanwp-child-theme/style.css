@@ -1,0 +1,57 @@
+/*
+Theme Name: oceanwp-child
+Description: https: //fr.wordpress.org/themes/oceanwp/
+Author: oceanwp
+Author URI: https: //fr.wordpress.org/themes/oceanwp/
+Template: oceanwp
+Version: 1.
+*/
+
+
+/***********************************************************************
+                            Header
+************************************************************************/
+
+#site-header {
+    border: none;
+}
+
+#site-logo-inner a:hover {
+    color: #000;
+}
+
+/***********************************************************************
+                Photos Gonflables maneges et divers
+************************************************************************/
+
+
+.page-id-42 .elementor-image-box-img,
+.page-id-56 .elementor-image-box-img,
+.page-id-80 .elementor-image-box-img {
+    width: 450px !important;
+}
+
+.page-id-6 .elementor-element-7ab4764 img,
+.page-id-6 .elementor-image-box-img {
+    border-radius: 50% !important;
+    width: 150px !important;
+}
+
+
+
+/***********************************************************************
+                    Footer
+************************************************************************/
+#copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#copyright::after {
+    content: none;
+}
+            
+#copyright p {
+    margin: 0;
+}

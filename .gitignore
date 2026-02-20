@@ -1,0 +1,33 @@
+# --- Pour WordPress ---
+# On ignore le cœur de WP (on peut le retrouver sur wordpress.org)
+wp-admin/
+wp-includes/
+*.php
+!wp-content/
+index.php
+.htaccess
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# On ignore les fichiers de config et les logs
+wp-config.php
+wp-content/debug.log
+wp-content/uploads/  # Optionnel : si tes images sont trop lourdes
+wp-content/upgrade/
+wp-content/backup-db/
+
+# On ignore les thèmes et plugins par défaut
+wp-content/themes/twentytwenty*
