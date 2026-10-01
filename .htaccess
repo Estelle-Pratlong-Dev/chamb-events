@@ -3,8 +3,8 @@
 # Change ces deux lignes pour changer d'environnement (local / hébergement)
 # sans toucher à wp-config.php ni à la base de données.
 <IfModule mod_env.c>
-SetEnv WP_HOME "http://chamb-events.test"
-SetEnv WP_SITEURL "http://chamb-events.test"
+SetEnv WP_HOME "http://chamb-events_wp.test"
+SetEnv WP_SITEURL "http://chamb-events_wp.test"
 </IfModule>
 # END Site URL config
 
